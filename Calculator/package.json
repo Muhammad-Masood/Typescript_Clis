@@ -1,0 +1,21 @@
+{
+  "name": "calculator-masooddd",
+  "version": "1.0.0",
+  "description": "Make your calculations easy!",
+  "main": "./calculator.js",
+  "bin": "./calculator.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./calculator.js"
+  },
+  "author": "Masood",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "inquirer": "^9.1.5"
+  }
+}
